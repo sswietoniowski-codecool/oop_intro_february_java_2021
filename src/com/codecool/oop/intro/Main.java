@@ -129,6 +129,7 @@ public class Main {
     private static void arrays() {
         int[] numbers = new int[10];
         String[] strings = {"One", "Two", "Three"};
+        strings[0] = "Four";
         int[][] board = new int[10][5]; // int[10][]
         for (int i = 0; i < board.length; i++) {
             for (int j = 0; j < board[i].length; j++) {
